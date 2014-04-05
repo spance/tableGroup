@@ -128,7 +128,23 @@ String html = builder.render(new DefaultModifiers()
   </tbody>
 </table>
 ```
-如有其它问题或需求欢迎讨论。
+##Test
+
+表格生成相关测试 请参见ArrayTableGroupTest
+
+css选择器解析测试 请参见SelectorParserTest
+
+选择器匹配器测试 请参见SelectorMatcherTest
+
+
+> SelectorMatcherTest测试结果，总匹配283万次，用时2秒，平均每秒141万次
+
+> total loop count: 2830278 , matched: 4448 , miss: 2825830 , error: 0
+
+> used: 2.00s , speed: 1415139.00/s , avg match: 0.00071ms/per
+
+**如有其它问题或需求欢迎讨论。**
+
 
 
 
