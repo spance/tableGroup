@@ -1,9 +1,90 @@
-说明
+介绍
 =========
 
-TableGroup专为分组式表格而生，适用于把一个二维数据按照一定规则进行分组合并生成html table，通过简单的分组规则生成一个高度自定义的table组件。
+TableGroup专为分组式表格而生，把二维数据按照一定规则进行分组合并，生成一个高度自定义的HTML table组件。
 
-一种典型的情况就是从统计类SQL结果作为数据源，交给TableGroup按规则执行各种分组合并单元格，然后输出，其间可以提取一些数据供图表等其它组件使用而不必发起更多次的查询。
+一种典型的情况,从统计类SQL结果作为数据源，交给TableGroup按规则执行各种花样的分组合并单元格，然后输出，其间可以提取一些数据供图表等其它组件使用而不必发起更多次的查询。
+
+##分析
+
+先从几个问题的分析入手，逐步了解几种常见的分组表格问题。
+
+假设有**数据源一**，结构如下：
+
+<table>
+<tr><th>列0</th><th>列2</th><th>列4</th><th>列5</th><th>列6</th></tr>
+<tr><td>AA类</td><td>BB分类</td><td>CC子类</td><td>1.2</td><td>1</td></tr>
+<tr><td>AA类</td><td>BB分类</td><td>CC子类</td><td>2.3</td><td>1</td></tr>
+<tr><td>AA类</td><td>BB分类</td><td>CD子类</td><td>3.4</td><td>2</td></tr>
+<tr><td>AA类</td><td>BC分类</td><td>CD子类</td><td>4.5</td><td>3</td></tr>
+<tr><td>AB类</td><td>BC分类</td><td>CD子类</td><td>5.6</td><td>4</td></tr>
+<tr><td>AB类</td><td>BC分类</td><td>CE子类</td><td>6.7</td><td>5</td></tr>
+</table>
+
+常规分组：按字面值对列0，列1，列2直接分组合并
+
+<table>
+<tr><th>列0</th><th>列1</th><th>列2</th><th>列3</th><th>列4</th></tr>
+<tr><td rowspan=4>AA类</td><td rowspan=3>BB分类</td><td rowspan=2>CC子类</td><td>1.2</td><td>1</td></tr>
+<tr><td>2.3</td><td>1</td></tr>
+<tr><td rowspan=3>CD子类</td><td>3.4</td><td>2</td></tr>
+<tr><td rowspan=3>BC分类</td><td>4.5</td><td>3</td></tr>
+<tr><td rowspan=2>AB类</td><td>5.6</td><td>4</td></tr>
+<tr><td>CE子类</td><td>6.7</td><td>5</td></tr>
+</table>
+
+**问题思考**：如果“分类”或“子类”中存在**字面相同但是不同记录**的情况（例如上面两个CC子类），那上面的合并结果显然不合要求。
+
+首先，要求数据源增加2列“分类id”“子类id”（这两列可以设置hidden=true不让其显示）
+
+数据源二：
+
+<table>
+<tr><th>列0</th><th>列1(分类id)</th><th>列2</th><th>列3(子类id)</th><th>列4</th><th>列5</th><th>列6</th></tr>
+<tr><td>AA类</td><td>11</td><td>BB分类</td><td>110</td><td>CC子类</td><td>1.2</td><td>1</td></tr>
+<tr><td>AA类</td><td>11</td><td>BB分类</td><td>111</td><td>CC子类</td><td>2.3</td><td>1</td></tr>
+<tr><td>AA类</td><td>11</td><td>BB分类</td><td>112</td><td>CD子类</td><td>3.4</td><td>2</td></tr>
+<tr><td>AA类</td><td>12</td><td>BC分类</td><td>112</td><td>CD子类</td><td>4.5</td><td>3</td></tr>
+<tr><td>AB类</td><td>12</td><td>BC分类</td><td>112</td><td>CD子类</td><td>5.6</td><td>4</td></tr>
+<tr><td>AB类</td><td>12</td><td>BC分类</td><td>113</td><td>CE子类</td><td>6.7</td><td>5</td></tr>
+</table>
+
+**TableGroup提供的分组办法：**
+- 列0按照字面值分组
+- 列2按照列1进行分组
+- 列4按照列3进行分组
+
+<table>
+<tr><th>列0</th><th>列1(分类id)</th><th>列2</th><th>列3(子类id)</th><th>列4</th><th>列5</th><th>列6</th></tr>
+<tr><td rowspan=4>AA类</td><td>11</td><td rowspan=3>BB分类</td><td>110</td><td>CC子类</td><td>1.2</td><td>1</td></tr>
+<tr><td>11</td><td>111</td><td>CC子类</td><td>2.3</td><td>1</td></tr>
+<tr><td>11</td><td>112</td><td rowspan=3>CD子类</td><td>3.4</td><td>2</td></tr>
+<tr><td>12</td><td rowspan=3>BC分类</td><td>112</td><td>4.5</td><td>3</td></tr>
+<tr><td rowspan=2>AB类</td><td>12</td><td>112</td><td>5.6</td><td>4</td></tr>
+<tr><td>12</td><td>113</td><td>CE子类</td><td>6.7</td><td>5</td></tr>
+</table>
+
+解决了同名异体的分组合并问题。
+
+**继续问题思考**：假设“分类”归属于“类”，“子类”归属于“分类”，则上面的合并结果又不合业务逻辑了。
+
+**TableGroup提供的分组办法：**
+- 列0按照字面值合并
+- 列2按照列1进行分组，并约束在列0组下
+- 列4按照列3进行分组，并约束在列2组下
+
+<table>
+<tr><th>列0</th><th>列1(分类id)</th><th>列2</th><th>列3(子类id)</th><th>列4</th><th>列5</th><th>列6</th></tr>
+<tr><td rowspan=4>AA类</td><td>11</td><td rowspan=3>BB分类</td><td>110</td><td>CC子类</td><td>1.2</td><td>1</td></tr>
+<tr><td>11</td><td>111</td><td>CC子类</td><td>2.3</td><td>1</td></tr>
+<tr><td>11</td><td>112</td><td>CD子类</td><td>3.4</td><td>2</td></tr>
+<tr><td>12</td><td>BC分类</td><td>112</td><td>CD子类</td><td>4.5</td><td>3</td></tr>
+<tr><td rowspan=3>AB类</td><td>12</td><td rowspan=3>BC分类</td><td>112</td><td>CD子类</td><td>5.6</td><td>4</td></tr>
+<tr><td>12</td><td>113</td><td rowspan=2>CE子类</td><td>6.7</td><td>5</td></tr>
+<tr><td>12</td><td>113</td><td>7.8</td><td>6</td></tr>
+</table>
+
+TableGroup就是为了解决以上问题而设计的，提供了足够简便、足够强大的应用API接口。
 
 ##特点
 
@@ -18,18 +99,14 @@ TableGroup专为分组式表格而生，适用于把一个二维数据按照一�
 - 对分组后的数据进行简单统计计算
 - 对分组后的html对象在渲染输出时基于css选择器的拦截和修改
 
-##主要的实现
+##主要部分
 
 - HtmlElement的树型构建
 - 节点的渲染器、拦截点、修改器和对应规则
-- 分组规则的构建和定义
+- 分组规则的构建定义
 - css选择器的语法分析和构建
 - css选择器的倒序匹配器
 - 简易的统计计算
-
-##效果
-
-![image](https://github.com/spance/tableGroup/raw/master/tableGroup-demo.png)
 
 ##Demo
 
@@ -52,8 +129,6 @@ builder.apply(new SimpleDataStore(new Object[][]{
         }));
 ```
 
-要执行单元格合并或者统计计算，则需要进行分组
-
 分组规则CellSpan，已实现RowSpan来提供Y方向分组
 
 RowSpan提供链式语法，实现三种情况的分组
@@ -69,7 +144,7 @@ builder.group(RowSpan.newRule().on(0),
               RowSpan.newRule().cascade(1).by(1).on(2) );
 ```
 
-在分组后，可执行抽取简单的统计计算结果
+在分组后，还可执行抽取简单的统计计算结果
 
 统计规则由Statistics的链式语法提供，在Statistics.Rule中承载
 
