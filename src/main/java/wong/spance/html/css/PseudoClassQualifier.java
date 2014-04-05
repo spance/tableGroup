@@ -85,30 +85,31 @@ public class PseudoClassQualifier extends Qualifier {
     @Override
     public void syntaxAnalyzer() throws SyntaxError {
         Assert.assertTrue(UNSUPPORTED_SYNTAX, getValue(), getValue().matches("(first-child|last-child|nth-child)"));
-        if (getValue().startsWith("nth")) {
-            Assert.assertTrue(EXPRESSION_MISSING, "nth-child(n) required n", getNthValue() != null);
-        }
         if (getValue().startsWith("first")) {
             nthValue = 0;
         } else if (getValue().startsWith("last")) {
             nthValue = -1;
+        } else if (getValue().startsWith("nth")) {
+            Assert.assertTrue(EXPRESSION_MISSING, "nth-child(n) required n", getNthValue() != null);
         }
     }
 
     @Override
     public HtmlElement matches(int selectorLevel, HtmlElement element) {
         if (selectorLevel == 0) {
-            if (element.getParentElement() == null)
+            HtmlElement child = element.getParentElement() == null ? null : element.getParentElement().getChild(nthValue);
+            if (child == null)
                 return null;
-            if (element.getParentElement().getChild(nthValue).equals(element))
+            if (child.equals(element))
                 return element;
             return null;
         } else {
-            HtmlElement parent = element;
+            HtmlElement parent = element, child;
             do {
-                if (parent.getParentElement() == null)
+                child = parent.getParentElement() == null ? null : parent.getParentElement().getChild(nthValue);
+                if (child == null)
                     return null;
-                if (parent.getParentElement().getChild(nthValue).equals(parent))
+                if (child.equals(parent))
                     return parent;
             } while ((parent = parent.getParentElement()) != null);
             return null;

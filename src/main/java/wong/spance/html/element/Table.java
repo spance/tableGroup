@@ -31,7 +31,7 @@ public class Table extends HtmlElement {
     public Table(int x) {
         super("table", new ArrayList<HtmlElement>());
         columnCount = x;
-        addChild(new THead());
+        addChild(new THead(x));
         tBody = new TBody();
         rowsList = (List<TableRow>) tBody.getChildren();
         addChild(tBody);
@@ -64,9 +64,9 @@ public class Table extends HtmlElement {
     }
 
     public void setHead(List<? extends HtmlElement> columns) {
-        THead head = (THead) getChild(0);
+        TableRow headRow = (TableRow) getChild(0).getChild(0);
         for (HtmlElement column : columns) {
-            head.addChild(column);
+            headRow.addChild(column);
         }
     }
 }

@@ -23,7 +23,8 @@ import java.util.ArrayList;
  */
 public class THead extends HtmlElement {
 
-    protected THead() {
-        super("thead", new ArrayList<TableColumn>());
+    protected THead(int x) {
+        super("thead", new ArrayList<TableRow>());
+        addChild(new TableRow(x));
     }
 }
