@@ -117,7 +117,7 @@ public class PseudoClassQualifier extends Qualifier {
 
     @Override
     public String toString() {
-        if (nthValue == null)
+        if (nthValue == null || nthValue <= 0)
             return ':' + getValue();
         else
             return ':' + getValue() + '(' + nthValue + ')';
