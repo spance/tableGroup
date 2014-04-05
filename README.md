@@ -29,7 +29,7 @@ TableGroup专为分组式表格而生，适用于把一个二维数据按照一�
 
 ##效果
 
-![image](https://github.com/spance/tableGroup/raw/master/screenshot/tableGroup-demo.png)
+![image](https://github.com/spance/tableGroup/raw/master/tableGroup-demo.png)
 
 ##Demo
 
