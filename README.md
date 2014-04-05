@@ -3,6 +3,8 @@
 
 TableGroup专为分组式表格而生，适用于把一个二维数据按照一定规则进行分组合并生成html table，通过简单的分组规则生成一个高度自定义的table组件。
 
+一种典型的情况就是从统计类SQL结果作为数据源，交给TableGroup按规则执行各种分组合并单元格，然后输出，其间可以提取一些数据供图表等其它组件使用而不必发起更多次的查询。
+
 ##特点
 
 - 这是非常高效的java实现，比使用大规模的统计报表引擎要易用和轻量的多
@@ -25,7 +27,7 @@ TableGroup专为分组式表格而生，适用于把一个二维数据按照一�
 - css选择器的倒序匹配器
 - 简易的统计计算
 
-##效果示意
+##效果
 
 ![image](https://github.com/spance/tableGroup/raw/master/screenshot/tableGroup-demo.png)
 
@@ -56,11 +58,9 @@ builder.apply(new SimpleDataStore(new Object[][]{
 
 RowSpan提供链式语法，实现三种情况的分组
 
-on(index) 基于index列字面值的分组
-
-by(index1) - on(index2) 基于index1的字面值在index2上进行分组
-
-cascade(index1) - by(index2) - on(index3) 限制在index1的分组下，基于index2的字面值在index3上进行分组
+- on(index) 基于index列字面值的分组
+- by(1) - on(2) 基于1的字面值在2上进行分组
+- cascade(1) - by(2) - on(3) 限制在1的分组下，基于2的字面值在3上进行分组
 
 
 ```java
@@ -77,13 +77,13 @@ builder.group(RowSpan.newRule().on(0),
 Map<String, Number> map = builder.statistics(Statistics.groupBy(0).sum(2));
 ```
 
-对表格组件进行渲染输出
+对表格组件进行默认方式渲染输出
 
 ```java
 String html = builder.render();
 ```
 
-由更易用的 DefaultModifiers 提供Modifier进行更复杂的属性变化替换等
+也可以进行定制化渲染输出 DefaultModifiers 提供Modifier进行更复杂的属性变化替换等
 
 ```java
 String html = builder.render(new DefaultModifiers()
@@ -91,8 +91,46 @@ String html = builder.render(new DefaultModifiers()
                         .setAttribute("table th", "class", "head")
                         .setAttribute("tbody tr", "style", "kkkk")
                         .replace("tr:last-child td:nth-child(1)", "(\\d+)", "XXX$1ttt")
+                        //  按照css选择器选择节点，执行对应的调节器
         );
 ```
+
+一段渲染好的结果
+
+```html
+<table class="table-class">         <!-- setAttribute(前置调节器)的作用 -->
+  <thead>
+    <th class="head">111</th>
+    <th class="head">222</th>
+    <th class="head">333</th>
+  </thead>
+  <tbody>
+    <tr style="kkkk">               <!-- setAttribute(前置调节器)的作用 -->
+      <td rowspan="2">s0</td>       <!-- 合并(CellSpanModifier调节器)的作用 -->
+      <td rowspan="3">b2</td>
+      <td>2</td>
+    </tr>
+    <tr style="kkkk">
+      <td>3</td>
+    </tr>
+    <tr style="kkkk">
+      <td rowspan="3">s1</td>
+      <td>4</td>
+    </tr>
+    <tr style="kkkk">
+      <td>b </td>
+      <td>5</td>
+    </tr>
+    <tr style="kkkk">
+      <td>bB XXX22ttt--</td>        <!-- TextRenderModifier(文本调节器)替换的作用 -->
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+```
+如有其它问题或需求欢迎讨论。
+
+
 
 License
 ----
