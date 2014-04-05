@@ -1,0 +1,2430 @@
+<html>
+    <body>
+        <div id="local_flash_cnt">as</div>
+        <div class="wrap1">
+            <div class="wrap2">
+                <div class="page-container">
+                    <div class="search-sec">
+                        <div id="head" class="search_bright_index search_bright clearfix" style="">
+                            <div class="head_inner">
+                                <a title="到贴吧首页" href="/" class="search_logo" style="">as</a>
+                                <div class="head_right_region">
+                                    <div class="search_top clearfix">
+                                        <div class="search_nav j_search_nav" style="">
+                                            <a param="word"
+                                               href="http">新闻
+                                            </a>
+                                            <a param="wd" href="http">网页</a>
+                                            <b>贴吧</b>
+                                            <a param="word"
+                                               href="http">
+                                                知道
+                                            </a>
+                                            <a param="key" href="http">音乐</a>
+                                            <a param="word"
+                                               href="http">
+                                                图片
+                                            </a>
+                                            <a param="word"
+                                               href="http">
+                                                视频
+                                            </a>
+                                            <a param="word" href="http">地图</a>
+                                            <a href="http" param="searchword/?pic=1fr=tiebaword">百科
+                                            </a>
+                                            <a href="http" param="word"
+                                               target="_blank">文库
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="search_main_wrap">
+                                        <div class="search_main clearfix">
+                                            <div class="search_form">
+                                                <a id="search_logo_small" class="" title="到贴吧首页" href="/">as</a>
+                                                <form name="f1" class="clearfix j_search_form" action="/f"
+                                                      id="tb_header_search_form">
+                                                    <input class="search_ipt search_inp_border j_search_input tb_header_search_input"
+                                                           name="kw1" value="" type="text" autocomplete="off" size="42"
+                                                           tabindex="1" id="wd1" maxlength="100"
+                                                           x-webkit-grammar="builtin:search" x-webkit-speech="true"/>
+                                                    <input autocomplete="off" type="hidden" name="kw" value=""
+                                                           id="wd2"/>
+                                                    <span class="search_btn_wrap search_btn_enter_ba_wrap">
+                                                        <a class="search_btn search_btn_enter_ba j_enter_ba" href="#"
+                                                           onclick="return false;"
+                                                           onmousedown="this.className+=' search_btn_down'"
+                                                           onmouseout="this.className=this.className.replace('search_btn_down','')">
+                                                            进入贴吧
+                                                        </a>
+                                                    </span>
+                                                    <span class="search_btn_wrap">
+                                                        <a class="search_btn j_search_post" href="#"
+                                                           onclick="return false;"
+                                                           onmousedown="this.className+=' search_btn_down'"
+                                                           onmouseout="this.className=this.className.replace('search_btn_down','')">
+                                                            全吧搜索
+                                                        </a>
+                                                    </span>
+                                                    <a class="senior-search-link"
+                                                       href="http">高级搜索
+                                                    </a>
+                                                </form>
+                                                <p style="display:none;" class="switch_radios">
+                                                    <input type="radio" class="nowtb" name="tb" id="nowtb"/>
+                                                    <label for="nowtb">吧内搜索</label>
+                                                    <input type="radio" class="searchtb" name="tb" id="searchtb"/>
+                                                    <label for="searchtb">搜贴</label>
+                                                    <input type="radio" class="authortb" name="tb" id="authortb"/>
+                                                    <label for="authortb">搜人</label>
+                                                    <input type="radio" class="jointb" checked="checked" name="tb"
+                                                           id="jointb"/>
+                                                    <label for="jointb">进吧</label>
+                                                    <input type="radio" class="searchtag" name="tb" id="searchtag"
+                                                           style="display:none;"/>
+                                                    <label for="searchtag" style="display:none;">搜标签</label>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="fool_wrap" style="display: none;">
+                            <div class="fool_close">as</div>
+                            <div class="fool_des">
+                            </div>
+                            <a class="fool_go" href="#" target="_blank">nbsp;</a>
+                        </div>
+
+                    </div>
+                    <div class="main-sec clearfix">
+                        <div class="top-sec clearfix">
+                            <div id="rec_left" class="rec_left">
+                                <div class="carousel_wrap tbui_slideshow_container" id="carousel_wrap">
+                                    <ul class="img_list tbui_slideshow_list">
+
+                                        <li alog-group="img_list_21pic" alog-alias="img_list_21pic"
+                                            class="img_list_3pic tbui_slideshow_slide" style="display:none;">
+                                            <a href="http"
+                                               target="_blank" class="img_box carousel_pic_wrap img_box300">
+                                                <div class="carousel_large_pic carousel_large_pic300">
+                                                    <img height="180" width="300"
+                                                         src="http"/>
+                                                    <div class="img_bg">as</div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">我是歌手第二季总决赛 谁将问鼎歌王</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="http" target="_blank"
+                                               class="img_box carousel_pic_wrap img_box187">
+                                                <div class="carousel_large_pic carousel_large_pic187">
+                                                    <img height="180" width="187"
+                                                         src="http"/>
+                                                    <div class="img_bg">as</div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">一招让女友瞬间不开心</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="http" target="_blank"
+                                               class="img_box carousel_pic_wrap img_box187">
+                                                <div class="carousel_large_pic carousel_large_pic187">
+                                                    <img height="180" width="187"
+                                                         src="http"/>
+                                                    <div class="img_bg">as</div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">TBG联赛一触即发</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li alog-group="img_list_3pic" alog-alias="img_list_3pic"
+                                            class="img_list_3pic tbui_slideshow_slide" style="display:none;">
+                                            <a href="http" target="_blank"
+                                               class="img_box carousel_pic_wrap">
+                                                <div class="carousel_large_pic">
+                                                    <img height="180" width="225"
+                                                         src="http"/>
+                                                    <div class="img_bg">as</div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">袁姗姗做客百度贴吧访谈</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="http" target="_blank"
+                                               class="img_box carousel_pic_wrap">
+                                                <div class="carousel_large_pic">
+                                                    <img height="180" width="225"
+                                                         src="http"/>
+                                                    <div class="img_bg"></div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">开店小伙伴快来大吐槽！</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="http"
+                                               target="_blank" class="img_box carousel_pic_wrap">
+                                                <div class="carousel_large_pic">
+                                                    <img height="180" width="225"
+                                                         src="http"/>
+                                                    <div class="img_bg"></div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">贴条卡，贴出你的心意</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li alog-group="img_list_1pic" alog-alias="img_list_1pic"
+                                            class="img_list_1pic tbui_slideshow_slide">
+                                            <a location="index_carousel_3" class=" img690" target="_blank"
+                                               href="http">
+                                                <img height="180" width="690"
+                                                     src="http"/>
+                                            </a>
+                                        </li>
+                                        <li class="img_list_2pic tbui_slideshow_slide" style="display: none;"
+                                            alog-alias="img_list_2pic" alog-group="img_list_2pic">
+                                            <div class="img_box img_box_2pic1">
+                                                <a href="http"
+                                                   target="_blank">
+                                                    <img src="http"
+                                                         width="280" height="180"/>
+                                                    <div class="img_bg"></div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">舞动：心之起舞，心随我动！</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="img_box img_box_2pic2">
+                                                <a href="http"
+                                                   target="_blank">
+                                                    <img src="http"
+                                                         height="180"/>
+                                                    <div class="img_bg"></div>
+                                                    <div class="img_txt">
+                                                        <p class="img_title">SD高达：机动战士，星际争霸！</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="top_progress_bar">
+                                    <span id="top_progress_prev" class="top_progress_prev">1</span>
+                                    <ul id="img_page" class="img_page">
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                    <span id="top_progress_next" class="top_progress_next">2</span>
+                                </div>
+                            </div>
+                            <div class="rec_right rec_login" id="rec_right">
+                                <div id="in_forum_num" class="num_list num_list02">
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                    <span class="num_span">
+                                        <i class="num_icon"></i>
+                                    </span>
+                                </div>
+                                <a href="#" class="btn_login"></a>
+                            </div>
+                        </div>
+                        <div class="content-sec clearfix">
+                            <div class="left-sec">
+                                <div id="balv_mod"
+                                     class="region_bright balv_mod balv_mod_bright balv_mod_index balv_mod_"
+                                     data-region="">
+                                    <div class="region_header">
+                                        <div class="region_op j_op"></div>
+                                        <div class="region_title region_icon j_title">我在贴吧</div>
+                                    </div>
+                                    <div class="region_cnt">
+                                        <div class="user_profile clearfix " id="user_info">
+                                            <div class="profile_left user_head">
+                                                <a style="" href="/home/main?un=gohsyfr=index" target="_blank">
+                                                    <img class="head_img"
+                                                         src="http"/>
+                                                </a>
+                                            </div>
+                                            <div class="profile_right user_name">
+                                                <div class="pre_icon_wrap pre_icon_wrap_theme2 ">
+                                                    <a class="icon_tbworld tbworld_lv2_gray" href="/tbmall/home"
+                                                       target="_blank" title="高级贴吧会员"></a>
+                                                </div>
+                                                <a class="" title="" href="/home/main?un=gohsyfr=index" target="_blank"
+                                                   data-field='{quot;user_idquot;:null}'>
+                                                    gohsy
+                                                </a>
+                                            </div>
+                                            <div class="profile_right user_score">
+                                                <span class="score_num j_score_num">0</span>
+                                                <a id="j_tcharge_dialog" class="score_tbmall" href="javascript:;">[充值]
+                                                </a>
+                                            </div>
+                                            <div class="profile_right user_tbmall">
+                                                <a href="/tbmall/home"
+                                                   target="_blank" data-field='{quot;user_idquot;:null}'
+                                                   class="ui_btn ui_btn_s">
+                                                    <span>
+                                                        <em>T豆商城</em>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="profile_bottom">
+                                                <a class="pb_np_get" href="/tbmall/propslist?category=112ps=24"
+                                                   target="_blank"></a>
+                                                <div id="j_profile_pop" class="profile_pop"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="region_footer"></div>
+                                </div>
+                                <div class="left-cont-wraper" id="left-cont-wraper">
+                                    <div class="u-f-t">
+                                        <div class="title">常逛的吧</div>
+                                        <div class="edit color2" id="addforum">编辑</div>
+                                    </div>
+                                    <div class="u-f-w" alog-alias="left-top-forums" alog-group="left-top-forums">
+                                        <div class="clearfix" id="likeforumwraper">
+                                            <a data-fid="40777" target="_blank" href="/f?kw=%D4%CB%B3%C7fr=index"
+                                               class="u-f-item unsign">运城
+                                            </a>
+                                            <a data-fid="416282" target="_blank" href="/f?kw=%C6%EF%D0%D0fr=index"
+                                               class="u-f-item unsign">骑行
+                                            </a>
+                                            <a data-fid="2471034" target="_blank"
+                                               href="/f?kw=%C3%C0%D3%F0%D4%C2fr=index" class="u-f-item unsign">美羽月
+                                            </a>
+                                            <a data-fid="69826" target="_blank" href="/f?kw=%C2%DE%B2%AE%CC%D8fr=index"
+                                               class="u-f-item unsign">罗伯特
+                                            </a>
+                                            <a data-fid="10127" target="_blank" href="/f?kw=%B8%DF%D1%AA%D6%ACfr=index"
+                                               class="u-f-item unsign">高血脂
+                                                <span class="forum_level lv2">asd</span>
+                                            </a>
+                                            <a data-fid="28073" target="_blank" href="/f?kw=%D5%C5%BC%D2%BF%DAfr=index"
+                                               class="u-f-item unsign">张家口
+                                                <span class="forum_level lv2">asdf</span>
+                                            </a>
+                                            <a data-fid="21978" target="_blank" href="/f?kw=%CE%F7%B0%B2fr=index"
+                                               class="u-f-item unsign">西安
+                                                <span class="forum_level lv2">mmmmmmmm</span>
+                                            </a>
+                                            <a data-fid="327" target="_blank" href="/f?kw=%D5%D4%DE%B1fr=index"
+                                               class="u-f-item unsign">赵薇
+                                                <span class="forum_level lv2">xxxxxxx</span>
+                                            </a>
+                                        </div>
+                                        <div class="more-wraper" id="moreforum" style="display:block">
+                                            <a href="#" class="more" onclick="return false;">
+                                                <span class="more-txt">查看更多</span>
+                                                <span class="more-triangle">ggg</span>
+                                            </a>
+                                        </div>
+                                        <div class="add-more-forum" id="add-more-forum" style="display:none">
+                                            <a href="#"></a>
+                                        </div>
+                                    </div>
+                                    <div class="u-f-t ufw-gap">
+                                        <div class="title">贴吧分类</div>
+                                        <div class="gap" style="width:125px"></div>
+                                    </div>
+                                    <div class="f-d-w" id="f-d-w" alog-alias="left-forums-category"
+                                         alog-group="left-forums-category">
+                                        <div class="f-d-item first-border-top" data-for="entertainment">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon entertainment">hj</span>
+                                                    <a title="娱乐明星" target="_blank"
+                                                       href="/f/index/forumpark?pcn=娱乐明星pci=0ct=1rn=20pn=1">娱乐明星
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="港台东南亚明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=港台东南亚明星ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        港台东南亚明星
+                                                    </a>
+                                                    <a title="内地明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=内地明星ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        内地明星
+                                                    </a>
+                                                    <a title="2013快乐男声" target="_blank"
+                                                       href="/f/index/forumpark?cn=2013快乐男声ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        2013快乐男声
+                                                    </a>
+                                                    <a title="2013中国好声音" target="_blank"
+                                                       href="/f/index/forumpark?cn=2013中国好声音ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        2013中国好声音
+                                                    </a>
+                                                    <a title="韩国明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=韩国明星ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        韩国明星
+                                                    </a>
+                                                    <a title="日本明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=日本明星ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        日本明星
+                                                    </a>
+                                                    <a title="时尚人物" target="_blank"
+                                                       href="/f/index/forumpark?cn=时尚人物ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        时尚人物
+                                                    </a>
+                                                    <a title="欧美明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=欧美明星ci=0pcn=娱乐明星pci=0ct=1rn=20pn=1">
+                                                        欧美明星
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="tvshows">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon tvshows">hj</span>
+                                                    <a title="爱综艺" target="_blank"
+                                                       href="/f/index/forumpark?pcn=电视节目pci=0ct=1rn=20pn=1">爱综艺
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="内地综艺" target="_blank"
+                                                       href="/f/index/forumpark?cn=内地综艺ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        内地综艺
+                                                    </a>
+                                                    <a title="台湾综艺" target="_blank"
+                                                       href="/f/index/forumpark?cn=台湾综艺ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        台湾综艺
+                                                    </a>
+                                                    <a title="韩国综艺" target="_blank"
+                                                       href="/f/index/forumpark?cn=韩国综艺ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        韩国综艺
+                                                    </a>
+                                                    <a title="时尚·生活服务" target="_blank"
+                                                       href="/f/index/forumpark?cn=时尚·生活服务ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        时尚·生活服务
+                                                    </a>
+                                                    <a title="体育运动·健身" target="_blank"
+                                                       href="/f/index/forumpark?cn=体育运动·健身ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        体育运动·健身
+                                                    </a>
+                                                    <a title="财经·职场" target="_blank"
+                                                       href="/f/index/forumpark?cn=财经·职场ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        财经·职场
+                                                    </a>
+                                                    <a title="新闻资讯" target="_blank"
+                                                       href="/f/index/forumpark?cn=新闻资讯ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        新闻资讯
+                                                    </a>
+                                                    <a title="音乐·文艺" target="_blank"
+                                                       href="/f/index/forumpark?cn=音乐·文艺ci=0pcn=电视节目pci=0ct=1rn=20pn=1">
+                                                        音乐·文艺
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="teleplay">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon teleplay">hj</span>
+                                                    <a title="追剧狂" target="_blank"
+                                                       href="/f/index/forumpark?pcn=电视剧pci=0ct=1rn=20pn=1">追剧狂
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="韩国电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=韩国电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        韩国电视剧
+                                                    </a>
+                                                    <a title="香港电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=香港电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        香港电视剧
+                                                    </a>
+                                                    <a title="美剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=美剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">美剧
+                                                    </a>
+                                                    <a title="日本电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=日本电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        日本电视剧
+                                                    </a>
+                                                    <a title="内地电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=内地电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        内地电视剧
+                                                    </a>
+                                                    <a title="台湾电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=台湾电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        台湾电视剧
+                                                    </a>
+                                                    <a title="东南亚电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=东南亚电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        东南亚电视剧
+                                                    </a>
+                                                    <a title="其他地区电视剧" target="_blank"
+                                                       href="/f/index/forumpark?cn=其他地区电视剧ci=0pcn=电视剧pci=0ct=1rn=20pn=1">
+                                                        其他地区电视剧
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="movie">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon movie">hj</span>
+                                                    <a title="看电影" target="_blank"
+                                                       href="/f/index/forumpark?pcn=电影pci=0ct=1rn=20pn=1">看电影
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="香港电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=香港电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        香港电影
+                                                    </a>
+                                                    <a title="欧美电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=欧美电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        欧美电影
+                                                    </a>
+                                                    <a title="内地电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=内地电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        内地电影
+                                                    </a>
+                                                    <a title="韩国电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=韩国电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        韩国电影
+                                                    </a>
+                                                    <a title="日本电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=日本电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        日本电影
+                                                    </a>
+                                                    <a title="台湾电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=台湾电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        台湾电影
+                                                    </a>
+                                                    <a title="电影话题" target="_blank"
+                                                       href="/f/index/forumpark?cn=电影话题ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        电影话题
+                                                    </a>
+                                                    <a title="东南亚电影" target="_blank"
+                                                       href="/f/index/forumpark?cn=东南亚电影ci=0pcn=电影pci=0ct=1rn=20pn=1">
+                                                        东南亚电影
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="literature">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon literature">hj</span>
+                                                    <a title="小说" target="_blank"
+                                                       href="/f/index/forumpark?pcn=小说pci=161ct=0rn=20pn=1">小说
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="奇幻" target="_blank"
+                                                       href="/f/index/forumpark?cn=奇幻ci=403pcn=小说pci=161ct=0rn=20pn=1">
+                                                        奇幻
+                                                    </a>
+                                                    <a title="言情" target="_blank"
+                                                       href="/f/index/forumpark?cn=言情ci=177pcn=小说pci=161ct=0rn=20pn=1">
+                                                        言情
+                                                    </a>
+                                                    <a title="灵异" target="_blank"
+                                                       href="/f/index/forumpark?cn=灵异ci=404pcn=小说pci=161ct=0rn=20pn=1">
+                                                        灵异
+                                                    </a>
+                                                    <a title="穿越" target="_blank"
+                                                       href="/f/index/forumpark?cn=穿越ci=162pcn=小说pci=161ct=0rn=20pn=1">
+                                                        穿越
+                                                    </a>
+                                                    <a title="连载" target="_blank"
+                                                       href="/f/index/forumpark?cn=连载ci=169pcn=小说pci=161ct=0rn=20pn=1">
+                                                        连载
+                                                    </a>
+                                                    <a title="修真" target="_blank"
+                                                       href="/f/index/forumpark?cn=修真ci=412pcn=小说pci=161ct=0rn=20pn=1">
+                                                        修真
+                                                    </a>
+                                                    <a title="历史" target="_blank"
+                                                       href="/f/index/forumpark?cn=历史ci=121pcn=小说pci=161ct=0rn=20pn=1">
+                                                        历史
+                                                    </a>
+                                                    <a title="架空文" target="_blank"
+                                                       href="/f/index/forumpark?cn=架空文ci=409pcn=小说pci=161ct=0rn=20pn=1">
+                                                        架空文
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="livingexpert">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon livingexpert">zx</span>
+                                                    <a title="生活家" target="_blank"
+                                                       href="/f/index/forumpark?pcn=生活家pci=214ct=0rn=20pn=1">生活家
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="小而美" target="_blank"
+                                                       href="/f/index/forumpark?cn=小而美ci=244pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        小而美
+                                                    </a>
+                                                    <a title="DIY" target="_blank"
+                                                       href="/f/index/forumpark?cn=DIYci=72pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        DIY
+                                                    </a>
+                                                    <a title="美食" target="_blank"
+                                                       href="/f/index/forumpark?cn=美食ci=380pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        美食
+                                                    </a>
+                                                    <a title="摄影" target="_blank"
+                                                       href="/f/index/forumpark?cn=摄影ci=82pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        摄影
+                                                    </a>
+                                                    <a title="旅行" target="_blank"
+                                                       href="/f/index/forumpark?cn=旅行ci=92pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        旅行
+                                                    </a>
+                                                    <a title="画画" target="_blank"
+                                                       href="/f/index/forumpark?cn=画画ci=91pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        画画
+                                                    </a>
+                                                    <a title="手绘" target="_blank"
+                                                       href="/f/index/forumpark?cn=手绘ci=94pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        手绘
+                                                    </a>
+                                                    <a title="植物" target="_blank"
+                                                       href="/f/index/forumpark?cn=植物ci=225pcn=生活家pci=214ct=0rn=20pn=1">
+                                                        植物
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="xianqu">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon xianqu">asdf</span>
+                                                    <a title="闲·趣" target="_blank"
+                                                       href="/f/index/forumpark?pcn=闲·趣pci=429ct=0rn=20pn=1">闲·趣
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="萌宠" target="_blank"
+                                                       href="/f/index/forumpark?cn=萌宠ci=4pcn=闲·趣pci=429ct=0rn=20pn=1">萌宠
+                                                    </a>
+                                                    <a title="萝莉" target="_blank"
+                                                       href="/f/index/forumpark?cn=萝莉ci=6pcn=闲·趣pci=429ct=0rn=20pn=1">萝莉
+                                                    </a>
+                                                    <a title="重口味" target="_blank"
+                                                       href="/f/index/forumpark?cn=重口味ci=257pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        重口味
+                                                    </a>
+                                                    <a title="吐槽" target="_blank"
+                                                       href="/f/index/forumpark?cn=吐槽ci=152pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        吐槽
+                                                    </a>
+                                                    <a title="恐怖" target="_blank"
+                                                       href="/f/index/forumpark?cn=恐怖ci=255pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        恐怖
+                                                    </a>
+                                                    <a title="星座" target="_blank"
+                                                       href="/f/index/forumpark?cn=星座ci=263pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        星座
+                                                    </a>
+                                                    <a title="爆料" target="_blank"
+                                                       href="/f/index/forumpark?cn=爆料ci=42pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        爆料
+                                                    </a>
+                                                    <a title="喵星人" target="_blank"
+                                                       href="/f/index/forumpark?cn=喵星人ci=5pcn=闲·趣pci=429ct=0rn=20pn=1">
+                                                        喵星人
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="game">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon game">sdf</span>
+                                                    <a title="游戏" target="_blank"
+                                                       href="/f/index/forumpark?pcn=游戏pci=0ct=1rn=20pn=1">游戏
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="客户端网游" target="_blank"
+                                                       href="/f/index/forumpark?cn=客户端网游ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        客户端网游
+                                                    </a>
+                                                    <a title="桌游" target="_blank"
+                                                       href="/f/index/forumpark?cn=桌游ci=0pcn=游戏pci=0ct=1rn=20pn=1">桌游
+                                                    </a>
+                                                    <a title="游戏角色" target="_blank"
+                                                       href="/f/index/forumpark?cn=游戏角色ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        游戏角色
+                                                    </a>
+                                                    <a title="网页版网游" target="_blank"
+                                                       href="/f/index/forumpark?cn=网页版网游ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        网页版网游
+                                                    </a>
+                                                    <a title="手机游戏" target="_blank"
+                                                       href="/f/index/forumpark?cn=手机游戏ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        手机游戏
+                                                    </a>
+                                                    <a title="小游戏" target="_blank"
+                                                       href="/f/index/forumpark?cn=小游戏ci=0pcn=游戏pci=0ct=1rn=20pn=1">小游戏
+                                                    </a>
+                                                    <a title="单机游戏" target="_blank"
+                                                       href="/f/index/forumpark?cn=单机游戏ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        单机游戏
+                                                    </a>
+                                                    <a title="掌机游戏" target="_blank"
+                                                       href="/f/index/forumpark?cn=掌机游戏ci=0pcn=游戏pci=0ct=1rn=20pn=1">
+                                                        掌机游戏
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="cartoon">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon cartoon">as</span>
+                                                    <a title="动漫宅" target="_blank"
+                                                       href="/f/index/forumpark?pcn=动漫宅pci=206ct=0rn=20pn=1">动漫宅
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="日本动漫" target="_blank"
+                                                       href="/f/index/forumpark?cn=日本动漫ci=312pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        日本动漫
+                                                    </a>
+                                                    <a title="国产动漫" target="_blank"
+                                                       href="/f/index/forumpark?cn=国产动漫ci=313pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        国产动漫
+                                                    </a>
+                                                    <a title="欧美动漫" target="_blank"
+                                                       href="/f/index/forumpark?cn=欧美动漫ci=314pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        欧美动漫
+                                                    </a>
+                                                    <a title="搞笑漫画" target="_blank"
+                                                       href="/f/index/forumpark?cn=搞笑漫画ci=319pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        搞笑漫画
+                                                    </a>
+                                                    <a title="热血动漫" target="_blank"
+                                                       href="/f/index/forumpark?cn=热血动漫ci=323pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        热血动漫
+                                                    </a>
+                                                    <a title="推理" target="_blank"
+                                                       href="/f/index/forumpark?cn=推理ci=83pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        推理
+                                                    </a>
+                                                    <a title="声优" target="_blank"
+                                                       href="/f/index/forumpark?cn=声优ci=210pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        声优
+                                                    </a>
+                                                    <a title="COS" target="_blank"
+                                                       href="/f/index/forumpark?cn=COSci=212pcn=动漫宅pci=206ct=0rn=20pn=1">
+                                                        COS
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="sports">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon sports">asdf</span>
+                                                    <a title="体育" target="_blank"
+                                                       href="/f/index/forumpark?pcn=体育pci=0ct=1rn=20pn=1">体育
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="nba球队及赛事" target="_blank"
+                                                       href="/f/index/forumpark?cn=nba球队及赛事ci=0pcn=体育pci=0ct=1rn=20pn=1">
+                                                        nba球队及赛事
+                                                    </a>
+                                                    <a title="中国足球俱乐部及赛事" target="_blank"
+                                                       href="/f/index/forumpark?cn=中国足球俱乐部及赛事ci=0pcn=体育pci=0ct=1rn=20pn=1">
+                                                        中国足球俱乐部及赛事
+                                                    </a>
+                                                    <a title="台球" target="_blank"
+                                                       href="/f/index/forumpark?cn=台球ci=0pcn=体育pci=0ct=1rn=20pn=1">台球
+                                                    </a>
+                                                    <a title="赛车" target="_blank"
+                                                       href="/f/index/forumpark?cn=赛车ci=0pcn=体育pci=0ct=1rn=20pn=1">赛车
+                                                    </a>
+                                                    <a title="田径" target="_blank"
+                                                       href="/f/index/forumpark?cn=田径ci=0pcn=体育pci=0ct=1rn=20pn=1">田径
+                                                    </a>
+                                                    <a title="田径明星" target="_blank"
+                                                       href="/f/index/forumpark?cn=田径明星ci=0pcn=体育pci=0ct=1rn=20pn=1">
+                                                        田径明星
+                                                    </a>
+                                                    <a title="英国足球俱乐部及赛事" target="_blank"
+                                                       href="/f/index/forumpark?cn=英国足球俱乐部及赛事ci=0pcn=体育pci=0ct=1rn=20pn=1">
+                                                        英国足球俱乐部及赛事
+                                                    </a>
+                                                    <a title="西班牙足球俱乐部及赛事" target="_blank"
+                                                       href="/f/index/forumpark?cn=西班牙足球俱乐部及赛事ci=0pcn=体育pci=0ct=1rn=20pn=1">
+                                                        西班牙足球俱乐部及赛事
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="academy">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon academy">asd</span>
+                                                    <a title="高校" target="_blank"
+                                                       href="/f/index/forumpark?pcn=高等院校pci=0ct=1rn=20pn=1">高校
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="北京院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=北京院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        北京院校
+                                                    </a>
+                                                    <a title="山东院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=山东院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        山东院校
+                                                    </a>
+                                                    <a title="江苏院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=江苏院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        江苏院校
+                                                    </a>
+                                                    <a title="四川院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=四川院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        四川院校
+                                                    </a>
+                                                    <a title="湖北院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=湖北院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        湖北院校
+                                                    </a>
+                                                    <a title="河北院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=河北院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        河北院校
+                                                    </a>
+                                                    <a title="安徽院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=安徽院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        安徽院校
+                                                    </a>
+                                                    <a title="陕西院校" target="_blank"
+                                                       href="/f/index/forumpark?cn=陕西院校ci=0pcn=高等院校pci=0ct=1rn=20pn=1">
+                                                        陕西院校
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="district">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon district">asd</span>
+                                                    <a title="地区" target="_blank"
+                                                       href="/f/index/forumpark?pcn=地区pci=0ct=1rn=20pn=1">地区
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="山东" target="_blank"
+                                                       href="/f/index/forumpark?cn=山东ci=0pcn=地区pci=0ct=1rn=20pn=1">山东
+                                                    </a>
+                                                    <a title="河北" target="_blank"
+                                                       href="/f/index/forumpark?cn=河北ci=0pcn=地区pci=0ct=1rn=20pn=1">河北
+                                                    </a>
+                                                    <a title="河南" target="_blank"
+                                                       href="/f/index/forumpark?cn=河南ci=0pcn=地区pci=0ct=1rn=20pn=1">河南
+                                                    </a>
+                                                    <a title="山西" target="_blank"
+                                                       href="/f/index/forumpark?cn=山西ci=0pcn=地区pci=0ct=1rn=20pn=1">山西
+                                                    </a>
+                                                    <a title="江苏" target="_blank"
+                                                       href="/f/index/forumpark?cn=江苏ci=0pcn=地区pci=0ct=1rn=20pn=1">江苏
+                                                    </a>
+                                                    <a title="辽宁" target="_blank"
+                                                       href="/f/index/forumpark?cn=辽宁ci=0pcn=地区pci=0ct=1rn=20pn=1">辽宁
+                                                    </a>
+                                                    <a title="四川" target="_blank"
+                                                       href="/f/index/forumpark?cn=四川ci=0pcn=地区pci=0ct=1rn=20pn=1">四川
+                                                    </a>
+                                                    <a title="广东" target="_blank"
+                                                       href="/f/index/forumpark?cn=广东ci=0pcn=地区pci=0ct=1rn=20pn=1">广东
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="f-d-item " data-for="humanity">
+                                            <div class="f-d-item-content">
+                                                <div class="title">
+                                                    <span class="typeicon humanity">zx</span>
+                                                    <a title="人文自然" target="_blank"
+                                                       href="/f/index/forumpark?pcn=人文自然pci=0ct=1rn=20pn=1">人文自然
+                                                    </a>
+                                                </div>
+                                                <div class="directory-wraper">
+                                                    <a title="艺术" target="_blank"
+                                                       href="/f/index/forumpark?cn=艺术ci=0pcn=人文自然pci=0ct=1rn=20pn=1">艺术
+                                                    </a>
+                                                    <a title="军事" target="_blank"
+                                                       href="/f/index/forumpark?cn=军事ci=0pcn=人文自然pci=0ct=1rn=20pn=1">军事
+                                                    </a>
+                                                    <a title="历史" target="_blank"
+                                                       href="/f/index/forumpark?cn=历史ci=0pcn=人文自然pci=0ct=1rn=20pn=1">历史
+                                                    </a>
+                                                    <a title="自然" target="_blank"
+                                                       href="/f/index/forumpark?cn=自然ci=0pcn=人文自然pci=0ct=1rn=20pn=1">自然
+                                                    </a>
+                                                    <a title="鉴赏收藏" target="_blank"
+                                                       href="/f/index/forumpark?cn=鉴赏收藏ci=0pcn=人文自然pci=0ct=1rn=20pn=1">
+                                                        鉴赏收藏
+                                                    </a>
+                                                    <a title="民族文化" target="_blank"
+                                                       href="/f/index/forumpark?cn=民族文化ci=0pcn=人文自然pci=0ct=1rn=20pn=1">
+                                                        民族文化
+                                                    </a>
+                                                    <a title="语言文化" target="_blank"
+                                                       href="/f/index/forumpark?cn=语言文化ci=0pcn=人文自然pci=0ct=1rn=20pn=1">
+                                                        语言文化
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="all-wraper">
+                                            <a target="_blank" href="/f/index/forumclass" class="all">
+                                                <span class="more-txt">查看全部</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-sec clearfix">
+                                <div class="r-top-sec">
+                                    <div class="forum_recommend" alog-alias="forum_recommend">
+                                        <div class="day_rcmd clearfix" id="day_rcmd" alog-group="day_rcmd">
+                                            <span class="class_title">朵朵奇吧</span>
+                                            <div class="rcmd_forum_list">
+                                                <div class="rcmd_forum clearfix">
+                                                    <a href="/f?kw=%B1%CA%D3%D1" target="_blank" class="rcmd_forum_img">
+                                                        <img src="http"
+                                                             width="95" height="95" alt="笔友"/>
+                                                    </a>
+                                                    <div class="rcmd_forum_desc">
+                                                        <p class="rcmd_f_name">
+                                                            <a href="/f?kw=%B1%CA%D3%D1" target="_blank">笔友吧</a>
+                                                        </p>
+                                                        <p class="rcmd_f_reason">
+                                                            怀念网络兴起前的社交冷兵器时代，怀念纸的质感和温度。海内一纸存知己，天涯相隔若比邻。
+                                                        </p>
+                                                        <p class="rcmd_f_num">
+                                                            <span class="rcmd_f_m_num">64877</span>
+                                                            <span class="rcmd_f_p_num">5800821</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rcmd_forum_list">
+                                                <div class="rcmd_forum clearfix">
+                                                    <a href="/f?kw=%B9%F3%D6%DD%CE%C0%CA%D3" target="_blank"
+                                                       class="rcmd_forum_img">
+                                                        <img src="http"
+                                                             width="95" height="95" alt="贵州卫视"/>
+                                                    </a>
+                                                    <div class="rcmd_forum_desc">
+                                                        <p class="rcmd_f_name">
+                                                            <a href="/f?kw=%B9%F3%D6%DD%CE%C0%CA%D3" target="_blank">
+                                                                贵州卫视吧
+                                                            </a>
+                                                        </p>
+                                                        <p class="rcmd_f_reason">
+                                                            2014年贵州卫视集结大批优质电视剧资源，3月24日起黄金剧场首次推出“热血青春季”。
+                                                        </p>
+                                                        <p class="rcmd_f_num">
+                                                            <span class="rcmd_f_m_num">1763</span>
+                                                            <span class="rcmd_f_p_num">31746</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="good_rcmd" id="good_rcmd" alog-group="good_rcmd">
+                                            <span class="class_title">高智商必看烧脑电影</span>
+                                            <div class="good_forum_list clearfix">
+                                                <a class="good_rcmd_left" id="good_rcmd_left" href="#"
+                                                   onclick="return false;">m</a>
+                                                <div class="good_rcmd_center" id="good_rcmd_center">
+                                                    <ul id="gr_f_list" class="gr_f_list clearfix">
+                                                        <li class="clearfix"/>
+                                                        <a class="good_forum clearfix"
+                                                           href="/f?kw=%B5%C1%C3%CE%BF%D5%BC%E4" target="_blank">
+                                                            <img src="http"
+                                                                 width="65" height="65" class="gf_pic"/>
+                                                            <div class="gf_desc">
+                                                                <p class="gf_fname">盗梦空间吧</p>
+                                                                <p class="gf_m_num">29175</p>
+                                                                <p class="gf_tag">m</p>
+                                                            </div>
+                                                        </a>
+                                                        <li class="clearfix"/>
+                                                        <a class="good_forum clearfix"
+                                                           href="/f?kw=%BA%FB%B5%FB%D0%A7%D3%A6" target="_blank">
+                                                            <img src="http"
+                                                                 width="65" height="65" class="gf_pic"/>
+                                                            <div class="gf_desc">
+                                                                <p class="gf_fname">蝴蝶效应吧</p>
+                                                                <p class="gf_m_num">5113</p>
+                                                                <p class="gf_tag">h</p>
+                                                            </div>
+                                                        </a>
+                                                        <li class="clearfix"/>
+                                                        <a class="good_forum clearfix"
+                                                           href="/f?kw=%B5%E7%BE%E2%BE%AA%BB%EA" target="_blank">
+                                                            <img src="http"
+                                                                 width="65" height="65" class="gf_pic"/>
+                                                            <div class="gf_desc">
+                                                                <p class="gf_fname">电锯惊魂吧</p>
+                                                                <p class="gf_m_num">49082</p>
+                                                                <p class="gf_tag">h</p>
+                                                            </div>
+                                                        </a>
+                                                        <li class="clearfix"/>
+                                                        <a class="good_forum clearfix"
+                                                           href="/f?kw=%D6%C2%C3%FC%C4%A7%CA%F5" target="_blank">
+                                                            <img src="http"
+                                                                 width="65" height="65" class="gf_pic"/>
+                                                            <div class="gf_desc">
+                                                                <p class="gf_fname">致命魔术吧</p>
+                                                                <p class="gf_m_num">1916</p>
+                                                                <p class="gf_tag">jk,</p>
+                                                            </div>
+                                                        </a>
+                                                        <li class="clearfix"/>
+                                                        <a class="good_forum clearfix" href="/f?kw=%BD%FB%B1%D5%B5%BA"
+                                                           target="_blank">
+                                                            <img src="http"
+                                                                 width="65" height="65" class="gf_pic"/>
+                                                            <div class="gf_desc">
+                                                                <p class="gf_fname">禁闭岛吧</p>
+                                                                <p class="gf_m_num">j</p>
+                                                                <p class="gf_tag">,</p>
+                                                            </div>
+                                                        </a>
+                                                        <li class="clearfix">
+                                                            <a class="good_forum clearfix"
+                                                               href="/f?kw=%BC%C7%D2%E4%CB%E9%C6%AC" target="_blank">
+                                                                <img src="http"
+                                                                     width="65" height="65" class="gf_pic"/>
+                                                                <div class="gf_desc">
+                                                                    <p class="gf_fname">记忆碎片吧</p>
+                                                                    <p class="gf_m_num">1695</p>
+                                                                    <p class="gf_tag"></p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a class="good_rcmd_right" id="good_rcmd_right" href="#"
+                                                   onclick="return false;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-left-sec">
+                                    <div class="platact_bigouter" id="plat_act_wrapper">
+                                        <div id="sp_plat_act_carousel" class="platact_outer tbui_slideshow_container">
+                                            <ul class="tbui_slideshow_list">
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:block;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="微星吧！发飙了，微星游戏笔记本抽奖送！！" alt="微星吧！发飙了，微星游戏笔记本抽奖送！！"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%CE%A2%D0%C7" target="_blank"
+                                                               class="platact_fname">微星吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">微星吧！发飙了，微星游戏笔记本抽奖送！！
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.4-2014.4.15</p>
+                                                        <p class="platact_deacli">奖品：微星笔记本电脑、赛睿FLUX耳机、微星游戏鼠标垫</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">k</a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="好礼抽不停！百度地图伴你春游行~" alt="好礼抽不停！百度地图伴你春游行~"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%B0%D9%B6%C8%B5%D8%CD%BC" target="_blank"
+                                                               class="platact_fname">百度地图吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">好礼抽不停！百度地图伴你春游行~
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.4-2014.4.20</p>
+                                                        <p class="platact_deacli">奖品：尼康数码相机、超声波加湿器、百度地图T恤、百度地图环..</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">.</a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="@豌豆荚吧 机器人神回复大赛" alt="@豌豆荚吧 机器人神回复大赛"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%CD%E3%B6%B9%BC%D4" target="_blank"
+                                                               class="platact_fname">豌豆荚吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">@豌豆荚吧 机器人神回复大赛
+                                                            </a>
+                                                            <span class="platact_type platact_type_2">晒图</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.4-2014.4.25</p>
+                                                        <p class="platact_deacli">奖品：拍立得相机、豌豆荚卫衣、豌豆荚手环U盘</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">/</a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="关注易车网，关注北京车展，车展门票送不停" alt="关注易车网，关注北京车展，车展门票送不停"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%D2%D7%B3%B5%CD%F8" target="_blank"
+                                                               class="platact_fname">易车网吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">关注易车网，关注北京车展，车展门票送不停
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.4-2014.4.18</p>
+                                                        <p class="platact_deacli">奖品：北京车展门票、贴吧logo定制版易车网抱枕、钥匙扣、鼠标..</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky"></a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="【酒葫芦网】专注个性，定制从这里开始" alt="【酒葫芦网】专注个性，定制从这里开始"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%BE%C6%BA%F9%C2%AB%CD%F8" target="_blank"
+                                                               class="platact_fname">酒葫芦网吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">【酒葫芦网】专注个性，定制从这里开始
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.4-2014.4.15</p>
+                                                        <p class="platact_deacli">奖品：法国原装红酒+酒葫芦网定制服务、酒葫芦网限量版T恤、酒..</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky"></a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="户外越野专家送大奖，骆驼邀你大夫山骑行" alt="户外越野专家送大奖，骆驼邀你大夫山骑行"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%C2%E6%CD%D5" target="_blank"
+                                                               class="platact_fname">骆驼吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">户外越野专家送大奖，骆驼邀你大夫山骑行
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.3-2014.4.26</p>
+                                                        <p class="platact_deacli">奖品：CAME骆驼头层牛皮登山鞋男鞋、CAMEL骆驼男女通用双肩背..
+                                                        </p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky"></a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="春暖花开，晒美图赢奖品" alt="春暖花开，晒美图赢奖品"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%C3%C0%C0%B2" target="_blank"
+                                                               class="platact_fname">美啦吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">春暖花开，晒美图赢奖品
+                                                            </a>
+                                                            <span class="platact_type platact_type_2">晒图</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.3-2014.4.17</p>
+                                                        <p class="platact_deacli">奖品：XRBRAND金苹果迷你项链、OLAY/玉兰油 白里透红霜、VS/沙宣
+                                                            修护水养旅行装
+                                                        </p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">mm</a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="抽奖赢UC浏览器电脑版限量公测邀请码" alt="抽奖赢UC浏览器电脑版限量公测邀请码"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=uc%E4%AF%C0%C0%C6%F7" target="_blank"
+                                                               class="platact_fname">uc浏览器吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">抽奖赢UC浏览器电脑版限量公测邀请码
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.3-2014.4.8</p>
+                                                        <p class="platact_deacli">奖品：限量公测邀请码、UC T恤、UC雨伞、UC闹钟、UC公仔</p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">,</a>
+                                                    </div>
+                                                </li>
+                                                <li class="tbui_slideshow_slide platact_inner" style="display:none;">
+                                                    <a class="platact_imglink"
+                                                       href="http"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="神舟电脑第二轮疯狂送电脑、送手机，抽大奖" alt="神舟电脑第二轮疯狂送电脑、送手机，抽大奖"/>
+                                                    </a>
+                                                    <div class="platact_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/f?kw=%C9%F1%D6%DB%B1%CA%BC%C7%B1%BE"
+                                                               target="_blank" class="platact_fname">神舟笔记本吧
+                                                            </a>
+                                                            <a href="http"
+                                                               target="_blank" class="platact_blue">神舟电脑第二轮疯狂送电脑、送手机，抽大奖
+                                                            </a>
+                                                            <span class="platact_type platact_type_1">抽奖</span>
+                                                        </h6>
+                                                        <p class="platact_deacli">时间：2014.4.3-2014.4.9</p>
+                                                        <p class="platact_deacli">奖品：游戏笔记本战神K610C、神舟灵雅H45
+                                                            T1手机、神舟战神T恤..
+                                                        </p>
+                                                        <a href="http"
+                                                           target="_blank" class="platact_lucky">h</a>
+                                                    </div>
+                                                </li>
+                                                <li id="act_square_item" class="tbui_slideshow_slide platact_inner"
+                                                    style="display:none;">
+                                                    <a class="platact_imglink" href="/actstage/square" target="_blank">
+                                                        <img class="platact_square_holder"
+                                                             src="http"/>
+                                                    </a>
+                                                    <div class="platact_desc platact_square_desc">
+                                                        <h6 class="platact_desctitle">
+                                                            <a href="/actstage/square" target="_blank"
+                                                               class="platact_blue platact_square_link">更多活动尽在活动大厅
+                                                            </a>
+                                                        </h6>
+                                                        <p class="platact_deacli">抽奖、晒图，各色活动应有尽有，等你来玩</p>
+                                                        <a href="/actstage/square" target="_blank"
+                                                           class="platact_lucky platact_total"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dr_progress_bar platact_naving">
+                                            <a href="/actstage/square" target="_blank" class="platact_look_more">
+                                                更多gt;gt;
+                                            </a>
+                                            <span id="sp_plat_act_carousel_next" class="turn_next" style="float:right">
+                                                as
+                                            </span>
+                                            <ul class="page_turn" id="sp_plat_act_carousel_dot" style="float:right">
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                                <li class="turn_icon">as</li>
+                                            </ul>
+                                            <span id="sp_plat_act_carousel_prev" class="turn_pre" style="float:right">
+                                                zx
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub_nav_wrap clearfix" id="sub_nav_wrap" alog-alias="sub_nav_wrap"
+                                         alog-group="sub_nav_wrap">
+                                        <ul class="sub_nav_list">
+                                            <li style="margin-left:8px">
+                                                <a href="#" tag_id="all" hot_index="0" id="j_remen_nav"
+                                                   class="nav_li nav_li_all ">热门动态
+                                                </a>
+                                            </li>
+                                            <li class="sub_nav_line">as</li>
+                                            <li style="padding-right: 7px;" id="nav-personal-wraper">
+                                                <a href="#" tag_id="personal" id="nav-personal"
+                                                   class="nav_li_personal triangle-down cur" hot_index="like">个性动态
+                                                </a>
+                                            </li>
+                                            <li class="sub_nav_line" id="tag_nav_1" style="display:none">as</li>
+                                            <li>
+                                                <a href="#" id="tag1" tag_id="" hot_index="1"
+                                                   class="nav_li nav_li_"></a>
+                                            </li>
+                                            <li class="sub_nav_line" id="tag_nav_2" style="display:none"></li>
+                                            <li>
+                                                <a href="#" id="tag2" tag_id="" hot_index="1"
+                                                   class="nav_li nav_li_"></a>
+                                            </li>
+                                            <li class="sub_nav_line" id="tag_nav_3" style="display:none"></li>
+                                            <li>
+                                                <a href="#" id="tag3" tag_id="" hot_index="1"
+                                                   class="nav_li nav_li_"></a>
+                                            </li>
+                                            <li class="nav_hover" style="left: 108px;width: 70px;"></li>
+                                        </ul>
+                                        <span href="#" class="btn_edit triangle-down">热门分类</span>
+                                        <ul class="personal-affairs" id="personal">
+                                            <i class="edit_arrow pointer"></i>
+                                            <li tag_id="like" class="top personal-affairs-li-bg">
+                                                <a href="#">关注的吧</a>
+                                            </li>
+                                            <li tag_id="like_tag" class="lower">
+                                                <a href="#">关注的标签</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="edit_list" id="tag_edit_list">
+                                            <li tag-id="383" class="tag-first-border">
+                                                <a href="javascript:void(0)">追星族</a>
+                                            </li>
+                                            <li tag-id="384" class="">
+                                                <a href="javascript:void(0)">影视迷</a>
+                                            </li>
+                                            <li tag-id="275" class="">
+                                                <a href="javascript:void(0)">体育迷</a>
+                                            </li>
+                                            <li tag-id="71" class="">
+                                                <a href="javascript:void(0)">发烧友</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="personal-sub-nav" style="display:block">
+                                        <span>这里会显示<font color="#666">你关注的吧</font>下精彩的内容
+                                        </span>
+                                        <a href="#" class="tag_subscribe">编辑关注的标签</a>
+                                        <a href="http" target="_blank">
+                                            编辑关注的吧
+                                        </a>
+                                    </div>
+                                    <div id="like-tag-nav">
+                                        <span>zxc</span>
+                                        <a href="#" class=""></a>
+                                    </div>
+                                    <div id="info-section"></div>
+                                    <ul class="new_list" id="new_list" alog-alias="feedlist0" alog-group="feedlist0">
+                                        <li class="clearfix j_feed_li " fid="21978">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CE%F7%B0%B2 " target="_blank" class="n_name"
+                                                           title="西安">西安吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963722496" target="_blank" class="title"
+                                                           title="清明时节雨纷 路上行人欲断魂">清明时节雨纷 路上行人欲断魂
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="43">43</em>
+                                                            <span class="list-triangle-border">zx
+                                                            </span>
+                                                            <span class="list-triangle-body">zxc</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_media"
+                                                     data-field="{'fname_u':'%CE%F7%B0%B2','tid':'2963722496'}"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CD%CF%C0%AD%BB%FAIng%D8%BCfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">拖拉机Ing丶
+                                                    </a>
+                                                    <span class="time">刚刚发布</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21978">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CE%F7%B0%B2 " target="_blank" class="n_name"
+                                                           title="西安">西安吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963713309" target="_blank" class="title"
+                                                           title="我想起床！！">我想起床！！
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="47">47</em>
+                                                            <span class="list-triangle-border">zz</span>
+                                                            <span class="list-triangle-body">zx</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CE%DE%C3%FBSupremefr=index" title="主题作者"
+                                                       target="_blank" class="post_author">无名Supreme
+                                                    </a>
+                                                    <span class="time">刚刚发布</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21978">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CE%F7%B0%B2 " target="_blank" class="n_name"
+                                                           title="西安">西安吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963709235" target="_blank" class="title"
+                                                           title="历史博物馆人好多，排队取票。。。在队伍屁股上">历史博物馆人好多，排队取票。。。在队伍屁股上
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="14">14</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">zx</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CB%E7%B5%C2%C3%CE%BE%AB%C1%E9fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">绥德梦精灵
+                                                    </a>
+                                                    <span class="time">12分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21978">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CE%F7%B0%B2 " target="_blank" class="n_name"
+                                                           title="西安">西安吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963705720" target="_blank" class="title"
+                                                           title="留下你认为好吃的美食">留下你认为好吃的美食
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="41">41</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">zxz</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%D8%BC%C7%E9%D0%F7%B7%B6erfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">丶情绪范er
+                                                    </a>
+                                                    <span class="time">6分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="28073">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%D5%C5%BC%D2%BF%DA " target="_blank"
+                                                           class="n_name" title="张家口">张家口吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963698895" target="_blank" class="title"
+                                                           title="当年你上课睡觉都用什么姿势？">当年你上课睡觉都用什么姿势？
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="39">39</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">zxc</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_media"
+                                                     data-field="{'fname_u':'%D5%C5%BC%D2%BF%DA','tid':'2963698895'}"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%C4%AB%C4%AB_%B6%F9fr=index" title="主题作者"
+                                                       target="_blank" class="post_author">墨墨_儿
+                                                    </a>
+                                                    <span class="time">刚刚发布</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21012">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%C7%E0%B4%BA " target="_blank" class="n_name"
+                                                           title="青春">青春吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963697845" target="_blank" class="title"
+                                                           title="所谓男神的发型是什么样的，求介绍">所谓男神的发型是什么样的，求介绍
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="45">45</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">zxc</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CE%C2%CE%C4%D9%A6%D1%C5%B5%C4%C7%DD%CA%DEfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">温文佴雅的禽兽
+                                                    </a>
+                                                    <span class="time">2分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21978">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CE%F7%B0%B2 " target="_blank" class="n_name"
+                                                           title="西安">西安吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963697641" target="_blank" class="title"
+                                                           title="青龙寺">青龙寺
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="22">22</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">c</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CF%D6%CA%B5%D3%EB%C3%CEde%B2%EE%BE%E0fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">现实与梦de差距
+                                                    </a>
+                                                    <span class="time">6分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21012">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%C7%E0%B4%BA " target="_blank" class="n_name"
+                                                           title="青春">青春吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963680288" target="_blank" class="title"
+                                                           title="如果给你九种方法虐你男朋友，你会选哪种？">如果给你九种方法虐你男朋友，你会选哪种？
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="39">39</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">c</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CE%C3%D7%D3%CA%C7%B8%F6%B4%BF%D2%AF%C3%C7fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">蚊子是个纯爷们
+                                                    </a>
+                                                    <span class="time">刚刚发布</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="59">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CC%EC%BD%F2 " target="_blank" class="n_name"
+                                                           title="天津">天津吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963662348" target="_blank" class="title"
+                                                           title="有搞瞎八的嘛">有搞瞎八的嘛
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="44">44</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">xc</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CD%E6%C3%FC%D0%A1%BD%E3lixinfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">玩命小姐lixin
+                                                    </a>
+                                                    <span class="time">2分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21012">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%C7%E0%B4%BA " target="_blank" class="n_name"
+                                                           title="青春">青春吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963638599" target="_blank" class="title"
+                                                           title="美图秀秀真可是神器啊 搞了半天才懂">美图秀秀真可是神器啊 搞了半天才懂
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="29">29</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body">zxc</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt">l</div>
+                                                <ul class="n_img clearfix"
+                                                    data-field="{'fname_u':'%C7%E0%B4%BA','tid':'2963638599'}">
+                                                    <li>
+                                                        <img title="点击查看大图" class="m_pic"
+                                                             original="http"
+                                                             oriWidth="250" oriHeight="250"
+                                                             src="http"
+                                                             width="150" height="105"/>
+                                                        <div class="feed_highlight">sdf</div>
+                                                    </li>
+                                                </ul>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%D0%A1%B6%AB%D6%BB%B0%AE%D0%A1%BB%D2fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">小东只爱小灰
+                                                    </a>
+                                                    <span class="time">9分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="21012">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%C7%E0%B4%BA " target="_blank" class="n_name"
+                                                           title="青春">青春吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963636659" target="_blank" class="title"
+                                                           title="好不容易熬到周末，我妈非拖着我陪她去逛街">好不容易熬到周末，我妈非拖着我陪她去逛街
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="25">25</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CE%C3%D7%D3%CA%C7%B8%F6%B4%BF%D2%AF%C3%C7fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">蚊子是个纯爷们
+                                                    </a>
+                                                    <span class="time">33分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="28073">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%D5%C5%BC%D2%BF%DA " target="_blank"
+                                                           class="n_name" title="张家口">张家口吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963631657" target="_blank" class="title"
+                                                           title="我大美腿的帖子又被删了。。。">我大美腿的帖子又被删了。。。
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="18">18</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%B3%E4%C6%F8%C4%D0%D3%D1%D8%BCfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">充气男友丶
+                                                    </a>
+                                                    <span class="time">21分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="40777">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%D4%CB%B3%C7 " target="_blank" class="n_name"
+                                                           title="运城">运城吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963630251" target="_blank" class="title"
+                                                           title="我觉得男的可以不帅气，但是必须得阳光，">我觉得男的可以不帅气，但是必须得阳光，
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="20">20</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CA%B2%8E%DB%B6%BC%DF%B2%B6%AEfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">什庅都卟懂
+                                                    </a>
+                                                    <span class="time">50分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="59">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CC%EC%BD%F2 " target="_blank" class="n_name"
+                                                           title="天津">天津吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963625464" target="_blank" class="title"
+                                                           title="清明了， 默默的为前任们点个蜡烛。">清明了， 默默的为前任们点个蜡烛。
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="52">52</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <ul class="n_img clearfix"
+                                                    data-field="{'fname_u':'%CC%EC%BD%F2','tid':'2963625464'}"></ul>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%D5%E2%EE%CF%8CH_%C0%DB%C0%D5fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">这钕孒_累勒
+                                                    </a>
+                                                    <span class="time">13分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="59">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CC%EC%BD%F2 " target="_blank" class="n_name"
+                                                           title="天津">天津吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963623428" target="_blank" class="title"
+                                                           title="我来到，你的城市，走过你来时的路。">我来到，你的城市，走过你来时的路。
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="46">46</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%D1%CC%D7%EC%A5%C5%BE%C6%B1%ADfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">烟嘴ヅ酒杯
+                                                    </a>
+                                                    <span class="time">5分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="28073">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%D5%C5%BC%D2%BF%DA " target="_blank"
+                                                           class="n_name" title="张家口">张家口吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963619805" target="_blank" class="title"
+                                                           title="太能吃了，，，">太能吃了，，，
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="38">38</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CF%FE%B1%F3_%CF%FE%B1%F3fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">晓斌_晓斌
+                                                    </a>
+                                                    <span class="time">11分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="59">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CC%EC%BD%F2 " target="_blank" class="n_name"
+                                                           title="天津">天津吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963619210" target="_blank" class="title"
+                                                           title="我就问一遍有玩跟我剑灵的吗  天天带你开黑，升级，弄装备。">我就问一遍有玩跟我剑灵的吗
+                                                            天天带你开黑，升级，弄装...
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="54">54</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%E2%AB%CB%F6%B5%C4%C5%AE%B0%C9%D3%D1fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">猥琐的女吧友
+                                                    </a>
+                                                    <span class="time">12分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="103902">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <div class="tag tag-style2" tag_id="302" title="点击查看与内地明星相关贴子">
+                                                            <a href="#" class="tag-name" tag_id="302" tag-id="302">
+                                                                内地明星
+                                                            </a>
+                                                            <a href="#" class="triangle"></a>
+                                                        </div>
+                                                        <a href="/f?kw=%D5%C5%BD%DC" target="_blank" class="n_name"
+                                                           title="张杰">张杰吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963606059" target="_blank" class="title"
+                                                           title="【爱，不解释】心疼杰哥。">【爱，不解释】心疼杰哥。
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="472">472</em>
+                                                            <span class="list-triangle-border">l</span>
+                                                            <span class="list-triangle-body">l</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <ul class="n_img clearfix"
+                                                    data-field="{'fname_u':'%D5%C5%BD%DC','tid':'2963606059'}">
+                                                    <li>
+                                                        <img title="点击查看大图"
+                                                             original="http"
+                                                             oriWidth="460" oriHeight="818" class="m_pic"
+                                                             src="http"
+                                                             width="150" height="105"/>
+                                                        <div class="feed_highlight"></div>
+                                                    </li>
+                                                    <li>
+                                                        <img title="点击查看大图"
+                                                             original="http"
+                                                             oriWidth="460" oriHeight="818" class="m_pic"
+                                                             src="http"
+                                                             width="150" height="105"/>
+                                                        <div class="feed_highlight"></div>
+                                                    </li>
+                                                    <li>
+                                                        <img title="点击查看大图"
+                                                             original="http"
+                                                             oriWidth="460" oriHeight="818" class="m_pic"
+                                                             src="http"
+                                                             width="150" height="105"/>
+                                                        <div class="feed_highlight"></div>
+                                                    </li>
+                                                </ul>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CF%C4%C8%D5%DC%FC%B7%B6fr=index"
+                                                       title="主题作者" target="_blank" class="post_author">夏日茳范
+                                                    </a>
+                                                    <span class="time">刚刚发布</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="59">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%CC%EC%BD%F2 " target="_blank" class="n_name"
+                                                           title="天津">天津吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963586990" target="_blank" class="title"
+                                                           title="我不想说民工素质低但是我忍不了了">我不想说民工素质低但是我忍不了了
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="50">50</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt">l</div>
+                                                <ul class="n_img clearfix"
+                                                    data-field="{'fname_u':'%CC%EC%BD%F2','tid':'2963586990'}">
+                                                    <li>
+                                                        <img title="点击查看大图" class="m_pic"
+                                                             original="http"
+                                                             oriWidth="1200" oriHeight="1600"
+                                                             src="http"
+                                                             width="150" height="105"/>
+                                                        <div class="feed_highlight"></div>
+                                                    </li>
+                                                </ul>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%CF%FE%CB%AA%C2%C9fr=index" title="主题作者"
+                                                       target="_blank" class="post_author">晓霜律
+                                                    </a>
+                                                    <span class="time">15分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="clearfix j_feed_li " fid="40777">
+                                            <div class="n_right">
+                                                <div>
+                                                    <div class="title-tag-wraper">
+                                                        <a href="/f?kw=%D4%CB%B3%C7 " target="_blank" class="n_name"
+                                                           title="运城">运城吧
+                                                        </a>
+                                                    </div>
+                                                    <div class="thread-name-wraper">
+                                                        <a href="/p/2963586680" target="_blank" class="title"
+                                                           title="啦啦啦，德玛西亚。">啦啦啦，德玛西亚。
+                                                        </a>
+                                                        <span class="list-post-num">
+                                                            <em data-num="52">52</em>
+                                                            <span class="list-triangle-border"></span>
+                                                            <span class="list-triangle-body"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="n_txt"></div>
+                                                <div class="n_reply">
+                                                    <a href="/home/main?un=%BD%D0%CE%D2%C5%AE%C9%F1%B5%EE%CF%C2%D8%BCfr=index"
+                                                       title="主题作者" target="_blank" class="post_author">叫我女神殿下丶
+                                                    </a>
+                                                    <span class="time">6分钟之前</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div id="data_loading" class="data_loading">
+                                        <img src="/tb/static-spage/img/loading.gif" width="22" height="22"/>
+                                        <span class="load_tip">正在加载，请稍候...</span>
+                                    </div>
+                                    <div id="btn_more" class="btn_more">
+                                        <a href="#" style="text-decoration:none">更多精彩贴子</a>
+                                    </div>
+                                    <div id="data_error_bar" class="data_error_bar">
+                                        <a href="#">数据加载失败，请点击重试</a>
+                                    </div>
+                                </div>
+                                <div class="r-right-sec">
+                                    <div class="right_wrap" id="right_wrap">
+                                        <div id="game_item" class="item game_item game_tab_01">
+                                            <div class="item_hd">
+                                                <div class="game_tab_more">
+                                                    <a href="/game/index" target="_blank" >更多>></a>
+                                                </div>
+                                                <ul class="game_tab">
+                                                    <li class="game_tab_li_01 cur" data-index="1">热门游戏</li>
+                                                    <li class="game_tab_li_02" data-index="2">我的游戏</li>
+                                                </ul>
+                                                <div class="game_tab_hover"></div>
+                                            </div>
+                                            <div class="game_hot_area">
+                                                <ul>
+                                                    <li class=" fn-clear">
+                                                        <div class="game_tab_link">
+                                                            <img class="game_tab_icon"
+                                                                 src="http"/>
+                                                            <a class="game_tab_link_trigger"
+                                                               href="http"
+                                                               target="_blank" >死神狂潮
+                                                            </a>
+                                                            <a class="game_tab_showImg" style="display:none"
+                                                               href="http"
+                                                               target="_blank" >
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="game_tab_type">
+                                                            <span>角色扮演</span>
+                                                            <a style="display:none"
+                                                               href="http"
+                                                               target="_blank">
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" fn-clear">
+                                                        <div class="game_tab_link">
+                                                            <img class="game_tab_icon"
+                                                                 src="http"/>
+                                                            <a class="game_tab_link_trigger"
+                                                               href="http"
+                                                               target="_blank" >火影疾风坛
+                                                            </a>
+                                                            <a class="game_tab_showImg" style="display:none"
+                                                               href="http"
+                                                               target="_blank" >
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="game_tab_type">
+                                                            <span>角色扮演</span>
+                                                            <a style="display:none"
+                                                               href="http"
+                                                               target="_blank">
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" fn-clear">
+                                                        <div class="game_tab_link">
+                                                            <img class="game_tab_icon"
+                                                                 src="http"/>
+                                                            <a class="game_tab_link_trigger"
+                                                               href="http"
+                                                               target="_blank" >暗黑世界</a>
+                                                            <a class="game_tab_showImg" style="display:none"
+                                                               href="http"
+                                                               target="_blank">
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                        <div class="game_tab_type">
+                                                            <span>角色扮演</span>
+                                                            <a style="display:none"
+                                                               href="http"
+                                                               target="_blank">
+                                                                <img src="http"/>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="game_history_area">
+                                                <ul></ul>
+                                                <div class="game_no_history">你还没有玩过游戏，<br/>快去找个喜欢的nbsp;<a
+                                                        target="_blank" href="/game/index">游戏</a>nbsp;玩玩吧
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div alog-alias="daren" class="item item01">
+                                            <div class="item_hd">
+                                                <div class="dr_progress_bar">
+                                                    <span id="page_turn_pre" class="turn_pre">asdf</span>
+                                                    <ul alog-group="daren_nav" id="controller" class="page_turn">
+                                                        <li class="turn_icon turn_icon_cur">asdf</li>
+                                                        <li class="turn_icon">asdf</li>
+                                                        <li class="turn_icon">asdf</li>
+                                                        <li class="turn_icon">asdf</li>
+                                                    </ul>
+                                                    <span id="page_turn_next" class="turn_next"></span>
+                                                </div>
+                                                <span class="title">达人堂</span>
+                                            </div>
+                                            <div class="tbui_slideshow_container slide_scroll" id="slide_scroll">
+                                                <ul alog-group="daren_content" id="daren" class="tbui_slideshow_list">
+                                                    <li class="tbui_slideshow_slide">
+                                                        <div class="dr_container">
+                                                            <div class="dr_detail_wrap">
+                                                                <div class="dr_detail">
+                                                                    <a href="http"
+                                                                       target="_blank">剪纸达人-叔遥
+                                                                    </a>
+                                                                    <p class="dr_forum">所属吧：大叔控吧</p>
+                                                                    <p>正经大叔，剪纸狂热爱好者。</p>
+                                                                </div>
+                                                                <img src="http"
+                                                                     width="85" height="85"/>
+                                                            </div>
+                                                            <div class="dr_desc">
+                                                                <a href="http"
+                                                                   target="_blank">当大叔照片变成剪纸
+                                                                </a>
+                                                                <p>本次的剪纸作品对象都来源于大叔吧的各位牛人，见笑了。</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tbui_slideshow_slide">
+                                                        <div class="dr_container">
+                                                            <div class="dr_detail_wrap">
+                                                                <div class="dr_detail">
+                                                                    <a href="http"
+                                                                       target="_blank">护肤达人-演绎
+                                                                    </a>
+                                                                    <p class="dr_forum">好女不过百吧</p>
+                                                                    <p>喜欢研究皮肤问题的小帅哥一只。</p>
+                                                                </div>
+                                                                <img src="http"
+                                                                     width="85" height="85"/>
+                                                            </div>
+                                                            <div class="dr_desc">
+                                                                <a href="http"
+                                                                   target="_blank">专业解决肌肤问题三十年
+                                                                </a>
+                                                                <p>各项肌肤问题逐个攻破，jm们再也不用担心你皮肤不好啦。</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tbui_slideshow_slide">
+                                                        <div class="dr_container">
+                                                            <div class="dr_detail_wrap">
+                                                                <div class="dr_detail">
+                                                                    <a href="http"
+                                                                       target="_blank">书法达人-老赵
+                                                                    </a>
+                                                                    <p class="dr_forum">所属吧：书法吧</p>
+                                                                    <p>就像一缕清泉在岩缝中爬行。</p>
+                                                                </div>
+                                                                <img src="http"
+                                                                     width="85" height="85"/>
+                                                            </div>
+                                                            <div class="dr_desc">
+                                                                <a href="http"
+                                                                   target="_blank">这样的书法真是头一次见
+                                                                </a>
+                                                                <p>老赵说：大凡能称得上一代大师的，无不虚怀若谷，甘于俱下。</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="tbui_slideshow_slide">
+                                                        <div class="dr_container">
+                                                            <div class="dr_detail_wrap">
+                                                                <div class="dr_detail">
+                                                                    <a href="http"
+                                                                       target="_blank">穷游达人-大光
+                                                                    </a>
+                                                                    <p class="dr_forum">所属吧：穷游吧</p>
+                                                                    <p>偏执狂，一个倔强的东北爷们儿。</p>
+                                                                </div>
+                                                                <img src="http"
+                                                                     width="85" height="85"/>
+                                                            </div>
+                                                            <div class="dr_desc">
+                                                                <a href="http"
+                                                                   target="_blank">从北到南的壮游之旅
+                                                                </a>
+                                                                <p>27天800块钱东北到三亚不知算不算穷游？自以为还不赖。</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="item item02" alog-alias="top5">
+                                            <div class="item_hd">
+                                                <span class="title">热门话题</span>
+                                            </div>
+                                            <div class="">
+                                                <ul alog-group="top5wrap" class="top_list top_list1">
+                                                    <li class="clearfix">
+                                                        <div class="t_left">
+                                                            <i class="rank_num rank_num01"></i>
+                                                        </div>
+                                                        <div class="t_right">
+                                                            <a class="t_title"
+                                                               href="http">让你爱上科学的神奇动态图
+                                                            </a>
+                                                            <div class="expand" style="height:34px;">
+                                                                这些现象惊呆你了吗，所有神奇都源自科学，来涨姿势吧！
+                                                            </div>
+                                                            <p title="66245个回复" class="tb_icon icon_baNum">66245</p>
+                                                            <i class="rank_up"></i>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class=" clearfix">
+                                                        <div class="t_left">
+                                                            <i class="rank_num rank_num02"></i>
+                                                        </div>
+                                                        <div class="t_right">
+                                                            <a class="t_title"
+                                                               href="http"
+                                                               target="_blank">
+                                                                直播：我们学校的极品奇葩
+                                                            </a>
+                                                            <p title="65940个回复" class="tb_icon icon_baNum">65940</p>
+                                                            <i class="rank_up"></i>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="clearfix">
+                                                        <div class="t_left">
+                                                            <i class="rank_num rank_num03"></i>
+                                                        </div>
+                                                        <div class="t_right">
+                                                            <a class="t_title"
+                                                               href="http"
+                                                               target="_blank">
+                                                                给乘坐失联航班爱人的信
+                                                            </a>
+                                                            <p title="17313" class="tb_icon icon_baNum">17313</p>
+                                                            <i class="rank_up"></i>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class=" clearfix">
+                                                        <div class="t_left">
+                                                            <i class="rank_num rank_num04"></i>
+                                                        </div>
+                                                        <div class="t_right">
+                                                            <a class="t_title"
+                                                               href="http"
+                                                               target="_blank">
+                                                                旧图新标题，毁图大赛开启
+                                                            </a>
+                                                            <p title="34075个回复" class="tb_icon icon_baNum">34075</p>
+                                                            <i class="rank_down"></i>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" clearfix">
+                                                        <div class="t_left">
+                                                            <i class="rank_num rank_num05"></i>
+                                                        </div>
+                                                        <div class="t_right">
+                                                            <a class="t_title"
+                                                               href="http"
+                                                               target="_blank">
+                                                                正能量：白血病娃的吃货日记
+                                                            </a>
+                                                            <p title="99715个回复" class="tb_icon icon_baNum">99715</p>
+                                                            <i class="rank_up"></i>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div alog-alias="notice_item" id="notice_item" class="item notice_item">
+                                            <div class="item_hd">
+                                                <span class="title">公告板</span>
+                                            </div>
+                                            <a class="notice" href="http"
+                                               target="_blank">
+                                                <img width="220" height="90"
+                                                     src="http"/>
+                                            </a>
+                                            <ul alog-group="notice_list" class="notice_list">
+
+                                                <li>
+                                                    <a href="http" target="_blank">
+                                                        用音乐缅怀张国荣
+                                                    </a>
+                                                </li>
+
+
+                                                <li>
+                                                    <a href="http" target="_blank">
+                                                        百度贴吧严厉打击互联网色情低俗信息
+                                                    </a>
+                                                </li>
+
+
+                                                <li>
+                                                    <a href="http" target="_blank">
+                                                        关于百度贴吧站外官方认证账号的说明
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="http" target="_blank">
+                                                        严厉打击爆吧、拆吧等行为的声明
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div id="adide_platform" class="item platform_item">
+                                            <div class="item_hd">
+                                                <span class="title">官方进驻</span>
+                                            </div>
+                                            <ul class="platform_item_list">
+                                                <li class="platform_item_item">
+                                                    <a class="pii_img_w" href="/f?kw=%C3%C0%D4%DA%BB%A8%B3%C7fr=index"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="美在花城" alt="美在花城"/>
+                                                    </a>
+                                                    <div class="pii_right">
+                                                        <a href="#" class="pii_fbtn pii_bg" fid="511481"></a>
+                                                        <a href="/f?kw=%C3%C0%D4%DA%BB%A8%B3%C7fr=index" title="美在花城吧"
+                                                           class="h6" target="_blank">美在花城吧
+                                                        </a>
+                                                        <p>广州电视台主打综艺品牌节目</p>
+                                                    </div>
+                                                </li>
+                                                <li class="platform_item_item">
+                                                    <a class="pii_img_w" href="/f?kw=%B5%C8%D7%C5%CE%D2fr=index"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="等着我" alt="等着我"/>
+                                                        <div class="pii_bluev pii_bg">sd</div>
+                                                    </a>
+                                                    <div class="pii_right">
+                                                        <a href="#" class="pii_fbtn pii_bg" fid="752647">sd</a>
+                                                        <a href="/f?kw=%B5%C8%D7%C5%CE%D2fr=index" title="等着我吧"
+                                                           class="h6" target="_blank">等着我吧
+                                                        </a>
+                                                        <p>中央电视台2014年重磅打造的全媒体寻人平台。</p>
+                                                    </div>
+                                                </li>
+                                                <li class="platform_item_item">
+                                                    <a class="pii_img_w"
+                                                       href="/f?kw=%C9%F1%D6%DB%B1%CA%BC%C7%B1%BEfr=index"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="神舟笔记本" alt="神舟笔记本"/>
+                                                        /<div class="pii_bluev pii_bg"></div>
+                                                    </a>
+                                                    <div class="pii_right">
+                                                        <a href="#" class="pii_fbtn pii_bg" fid="130154">l/</a>
+                                                        <a href="/f?kw=%C9%F1%D6%DB%B1%CA%BC%C7%B1%BEfr=index"
+                                                           title="神舟笔记本吧" class="h6" target="_blank">神舟笔记本...
+                                                        </a>
+                                                        <p>快关注本吧，送电脑，送手机！</p>
+                                                    </div>
+                                                </li>
+                                                \
+                                                <li class="platform_item_item">
+                                                    <a class="pii_img_w" href="/f?kw=wisfr=index" target="_blank">
+                                                        <img src="http"
+                                                             title="wis" alt="wis"/>
+                                                        <div class="pii_bluev pii_bg"></div>
+                                                    </a>
+                                                    <div class="pii_right">
+                                                        <a href="#" class="pii_fbtn pii_bg" fid="87402"></a>
+                                                        <a href="/f?kw=wisfr=index" title="wis吧" class="h6"
+                                                           target="_blank">wis吧
+                                                        </a>
+                                                        <p>分享护肤经验，交流护肤心得。</p>
+                                                    </div>
+                                                </li>
+                                                <li class="platform_item_item">
+                                                    <a class="pii_img_w" href="/f?kw=%D5%C2%D3%E3%BF%A8fr=index"
+                                                       target="_blank">
+                                                        <img src="http"
+                                                             title="章鱼卡" alt="章鱼卡"/>
+                                                        <div class="pii_bluev pii_bg"></div>
+                                                    </a>
+                                                    <div class="pii_right">
+                                                        <a href="#" class="pii_fbtn pii_bg" fid="8750309"></a>
+                                                        <a href="/f?kw=%D5%C2%D3%E3%BF%A8fr=index" title="章鱼卡吧"
+                                                           class="h6" target="_blank">章鱼卡吧
+                                                        </a>
+                                                        <p>章鱼粉爱信账户火星密语等你来！</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-bg"></div>
+                    </div>
+                </div>
+                <div class="footer" alog-alias="footer">
+                    <p alog-group="copy">copy;2014 Baidu
+                        <a href="http">使用百度前必读</a>
+                        <a href="http">贴吧协议</a>
+                        <a href="http">投诉反馈</a>信息网络传播视听节目许可证 0110516
+                        <a href="http" target="_blank">
+                            <img src="http" width="20"/>
+                        </a>
+                        <a href="http" target="_blank">
+                            <img title="首都网络110报警服务" src="http"
+                                 width="20"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

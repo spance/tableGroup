@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2010-2011 Spance Wong.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<cases>
+    <case pattern="AB" error="null"/>
+    <case pattern="AA.xx" error="null"/>
+    <case pattern="AA#xx" error="null"/>
+    <case pattern="AA B CC" error="null"/>
+    <case pattern="AA B.cc CC" error="null"/>
+    <case pattern="AA#a p.cc CC" error="null" />
+    <case pattern="[bb]" error="null"/>
+    <case pattern="[bb=as]" error="null"/>
+    <case pattern="[bb='12 sd 2']" error="null"/>
+    <case pattern="[bb='12 &quot; 2']" error="null"/>
+    <case pattern="AA[a=b]" error="null"/>
+    <case pattern="AA[a='b']" error="null"/>
+    <case pattern="AA[a~=b]" error="null"/>
+    <case pattern="AA:first-child" error="null"/>
+    <case pattern="AA:last-child" error="null"/>
+    <case pattern="AA:nth-child(7)" error="null"/>
+    <case pattern="AA[asd]" error="null"/>
+    <case pattern=".xx-s[p=a] >s > .xx[xc] +a[asd]" error="null"/>
+    <!--error-->
+    <case pattern=":bb" error="UNSUPPORTED"/>
+    <case pattern="AA[a-=b]" error="SYNTAX"/>
+    <case pattern="." error="MISSING"/>
+    <case pattern="#" error="MISSING"/>
+    <case pattern=":" error="MISSING"/>
+    <case pattern="[" error="MISSING"/>
+    <case pattern="]" error="INVALID"/>
+    <case pattern="{" error="INVALID"/>
+    <case pattern="x:" error="MISSING"/>
+    <case pattern="x#" error="MISSING"/>
+    <case pattern="x.:g" error="MISSING"/>
+    <case pattern="x:.g" error="MISSING"/>
+    <case pattern="x:[g" error="MISSING"/>
+    <case pattern="x[.g" error="SYMBOL"/>
+    <case pattern="x:xx(s)" error="INVALID"/>
+    <case pattern="x:xx(" error="MISSING"/>
+    <case pattern="x:xx(1212" error="MISSING"/>
+    <case pattern="x:xx(12x" error="INVALID"/>
+    <case pattern="x:xx)" error="SYMBOL"/>
+    <case pattern="x:(s)" error="MISSING"/>
+    <case pattern="x:x()" error="MISSING"/>
+    <case pattern="AA:nth-child(7)sdf" error="SYMBOL"/>
+    <case pattern="[p=]" error="MISSING"/>
+    <case pattern="[p=&quot;]" error="MISSING"/>
+    <case pattern="[p]&quot;" error="INVALID"/>
+    <case pattern=".xx-s[p='a]" error="MISSING"/>
+    <case pattern=".xx-s[p=&quot;a]" error="MISSING"/>
+    <case pattern=".xx-s[p=a']" error="SYMBOL"/>
+    <case pattern=".xx-s[p=a&quot;]" error="=&quot;"/>
+    <case pattern="a#b [asd] .xx-s[p=a&quot;]" error="=&quot;"/>
+    <case pattern=".xx-s[p=a] +" error="INVALID"/>
+    <case pattern=".xx-s[p=a] >" error="INVALID"/>
+    <case pattern=".xx-s[p=a] ,xx" error="逗号"/>
+</cases>
