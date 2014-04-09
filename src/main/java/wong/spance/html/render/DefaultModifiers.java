@@ -101,6 +101,20 @@ public class DefaultModifiers implements ModifierProvider {
         return this;
     }
 
+    public DefaultModifiers setEmptyText(final String pattern, final String emptyText) {
+        putIntoList(ModifierPoint.BEFORE_END, new BeforeEndRenderModifier(pattern) {
+
+            @Override
+            protected String handler(HtmlElement element, RenderContext context) {
+                if (element.childrenSize() < 1) {
+                    return emptyText;
+                }
+                return null;
+            }
+        });
+        return this;
+    }
+
     /**
      * 单元格合并
      */

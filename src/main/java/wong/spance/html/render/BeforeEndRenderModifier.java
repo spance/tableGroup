@@ -16,10 +16,17 @@ package wong.spance.html.render;
  * limitations under the License.
  */
 
+import wong.spance.html.element.HtmlElement;
+
 /**
  * Created by spance on 14/4/4.
  */
-public enum ModifierPoint {
+public abstract class BeforeEndRenderModifier extends Modifier {
 
-    BEFORE, BEFORE_END, AFTER, TEXT
+    public BeforeEndRenderModifier(String pattern) {
+        super(ModifierPoint.BEFORE_END, pattern);
+    }
+
+    @Override
+    protected abstract String handler(HtmlElement element, RenderContext context);
 }

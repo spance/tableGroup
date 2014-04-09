@@ -109,7 +109,21 @@ public class RenderContext {
                     String result = modifier.handler(element, this);
                     if (result != null) {
                         print(result);
-                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    public void handlerBeforeEndModifier(HtmlElement element) {
+        List<Modifier> modifierList = modifierMap.get(ModifierPoint.BEFORE_END);
+        if (modifierList != null && !modifierList.isEmpty()) {
+            for (Modifier _modifier : modifierList) {
+                BeforeEndRenderModifier modifier = (BeforeEndRenderModifier) _modifier;
+                if (modifier.matches(element)) {
+                    String result = modifier.handler(element, this);
+                    if (result != null) {
+                        print(result);
                     }
                 }
             }
@@ -173,24 +187,20 @@ public class RenderContext {
      * 结束一个打印事务，把当前事务的内容输出到父级事务中，或主缓冲区中
      *
      * @param value
-     * @param emptyText
      * @param indent
      */
-    public void printEndTransaction(CharSequence value, String emptyText, int indent) {
+    public void printEndTransaction(CharSequence value, int indent) {
         if (transactions.isEmpty())
             throw new IllegalStateException("printBegin need first call!");
         PrintTransaction transaction = transactions.pop();
         if (indent > 0)
             value = autoIndent(transactions.size(), indent & 0x00ff, value);
         if (transactions.peek() != null) {
-            transactions.peek().printing(transaction.printEnd(value, emptyText));
+            transactions.peek().printing(transaction.printEnd(value));
         } else
-            buffer.append(transaction.printEnd(value, emptyText));
+            buffer.append(transaction.printEnd(value));
     }
 
-    public void printEndTransaction(CharSequence value, int autoIndent) {
-        printEndTransaction(value, null, autoIndent);
-    }
 
     /**
      * 为了人类更容易看清楚，按嵌套事务数量进行缩进
@@ -239,15 +249,14 @@ public class RenderContext {
          * 事务失败后，选择性输出emptyText
          *
          * @param value
-         * @param emptyText
          * @return
          */
-        CharSequence printEnd(CharSequence value, CharSequence emptyText) {
+        CharSequence printEnd(CharSequence value) {
             if (valid) {
                 _buffer.append(value);
                 return _buffer;
             } else {
-                return emptyText == null ? "" : emptyText;
+                return "";
             }
         }
     }

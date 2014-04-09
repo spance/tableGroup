@@ -166,6 +166,7 @@ public abstract class HtmlElement {
                 element.render(context);
             }
         }
+        context.handlerBeforeEndModifier(this);
         context.printEndTransaction(htmlEndTag(), indent);
         context.handlerAfterModifier(this);
     }

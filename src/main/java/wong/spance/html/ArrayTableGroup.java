@@ -48,9 +48,9 @@ public class ArrayTableGroup implements TableGroup {
 
     @Override
     public void apply(DataStore data) {
-        if (data == null || data.getRowCount() <= 0) {
-            throw new IllegalArgumentException();
-        }
+//        if (data == null || data.getRowCount() <= 0) {
+//            throw new IllegalArgumentException();
+//        }
         for (Object[] row : data) {
             if (row.length != meta.size()) {
                 throw new IllegalStateException();
